@@ -3,12 +3,25 @@
 <head>
   <meta charset="UTF8">
   <title> IT's SCIENCE TIME </title>
+<style>
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {font-size:55px;
+text-align: center;
+}
+.saw{
+  color:gray;
+}
+#active{color:red;}
+</style>
 </head>
 <body>
   <h1><a href="index.html">chemical reaction</a></h1>
   <ol>
-    <li><a href="1.html" title="ch.1">material change and chemical reaction formula</a></li>
-    <li><a href="2.html" title="ch.2">The rules of chemical reaction</a></li>
+    <li><a href="1.html" title="ch.1" class="saw">material change and chemical reaction formula</a></li>
+    <li><a href="2.html" title="ch.2" class="saw" id="active">The rules of chemical reaction</a></li>
     <li><a href="3.html" title="ch.3">Energy entry of chemical reaction</a></li>
  </ol>
 
@@ -27,4 +40,24 @@
   <br><img src="화학반응.jpg"width="300px"><br><br>
   referenced site:
   <a href="https://terms.naver.com/entry.nhn?docId=1155314&cid=40942&categoryId=32251" target="_blank" title="참조 사이트"> naver 지식백과</a>
-  <br>+ my blog:https://blog.naver.com/jaeyongg06
+  <br>+ my blog:https://blog.naver.com/jaeyongg06<br>
+
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://web1-vvkj2sjx7i.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
